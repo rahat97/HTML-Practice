@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="#" method="POST">
+
+        <fieldset>
+            <legend>Contact Us</legend>
+            First Name <br>
+            <input type="text" placeholder="Enter your First Name"> <br><br>
+            Last Name <br>
+            <input type="text" placeholder="Enter your Last Name"> <br><br>
+
+            <input type="radio" name="gender"> Male <br>
+            <input type="radio" name="gender"> Female <br>
+            <input type="radio" name="gender"> Other <br><br>
+                
+
+            <input type="submit" value="Send">
+        </fieldset>
+
+    </form>
+    <br><br>
+
+    <select multiple size="2" name="" id="">
+        <option value="volvo">Volvo</option>
+        <option value="audi" selected>Audi</option>
+        <option value="fiat">Fiat</option>
+        <option value="mercedes">Mercedes</option>
+    </select>
+    <br><br>
+
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+    <br><br>
+
+    <form action="#">
+        <h2>Write Your Browser Name</h2>
+        <input type="text" list="browsers" >
+        <datalist id="browsers">
+            <option value="Google Chrome">
+            <option value="Mozilla Firefox">
+            <option value="Internet Explorer">
+        </datalist>
+    </form> <br><br>
+
+    <form action="#" method="POST" >
+        Name: <input type="text" name="user name"> <br><br>
+        Password: <input type="password" name="pass"> <br><br>
+        <input type="submit" value="Send">
+    </form>
+    <br><br>
+
+    <form action="#" method="post">
+        <!--click in name to catch field area-->
+        <label for="nam">Name</label>
+        <input id="nam" type="text" required > <br><br>
+        <label for="mail">Email</label>
+        <input id="mail" type="email" required > <br><br>
+        <input type="checkbox"> I have a bike <br>
+        <input type="checkbox"> I have a car <br><br>
+        <input type="file"> <br><br>
+        <label for="web">Your website URL</label>
+        <input type="url"> <br> <br>
+        <label for="tel">Telephone</label>
+        <input id="tel" type="tel"> <br>
+        <input type="range"> <br>
+        <input type="number"> <br>
+        <input type="date"> <br>
+        <input type="color"> <br><br>
+        <input type="reset">
+        <input type="submit" value="Send" >
+    </form>
+
+</body>
+</html>
